@@ -1,0 +1,14 @@
+Objective: Analysing the Decadal Urban Growth for Pune using machine learning technique, here Random Forest Machine Learning tool is used.
+Google Earth Engine is used to import, analyse and see the results in a dashboard: the code for this is attatched with it.
+Description of the code:
+The initial steps of the code are the functions which is used to obtain better images from the satellite for efficient.Functions for removal of cloud, calculating ndvi 
+and ndbi, later adding them to image that is needed to be classified area done.
+Secondly, the steps for adding the respective field points (water, barren land,vegetation and urban) for respctive classes and they were divided into trating and
+validation samples randomly in the propportion og 7:3 for classification.
+Thirdly, the classification is done using Random Forest algorithm using the training samples and validated using validation sampled wiwth thr hep of accuracies 
+and kappa coefficients.
+Later, a dashboard was created to to display the landuse and land cover of the respctive years,areas of each classes, the growth in area and rate of growth in percentage
+between the specified years using the panels and widgets in google earth engine and published as an app later.
+
+for further clarification of codes, the below given link could be used - 
+https://courses.spatialthoughts.com/end-to-end-gee.html
